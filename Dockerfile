@@ -81,5 +81,3 @@ COPY --chown=user:user . ${SRC_DIR}
 
 # installs buildozer and dependencies
 RUN pip3 install --user --upgrade "Cython<3.0" wheel pip ${SRC_DIR}
-
-CMD ["/bin/bash"]
